@@ -11,7 +11,7 @@ const cardiopatias = [
     icon: '🫀',
     imagen: 'assets/images/cia.png',
     tags: ['Shunt izquierda-derecha', 'Acianótica', 'Sobrecarga volumen derecha'],
-    video: null, // Pegar URL de YouTube aquí
+    video: '0IAn2XqMv18', // Comunicación Interauricular (CIA)
     diagnostico: {
       titulo: 'Diagnóstico Clínico',
       icon: '🔍',
@@ -70,6 +70,7 @@ const cardiopatias = [
     icon: '💜',
     imagen: 'assets/images/civ.png',
     tags: ['Shunt izquierda-derecha', 'ICC', 'Hipertensión Pulmonar'],
+    video: 'J3hP8pDqQ6U', // Comunicación Interventricular (CIV)
     diagnostico: {
       titulo: 'Diagnóstico Clínico',
       icon: '🔍',
@@ -123,6 +124,7 @@ const cardiopatias = [
     icon: '💚',
     imagen: 'assets/images/dap.png',
     tags: ['Prematuros', 'Shunt continuo', 'Sobrecarga VI'],
+    video: 'm9Fm519v9rU', // Ductus Arterioso Persistente (DAP)
     diagnostico: {
       titulo: 'Diagnóstico',
       icon: '🔍',
@@ -182,6 +184,7 @@ const cardiopatias = [
     icon: '🧡',
     imagen: 'assets/images/canal_av.png',
     tags: ['Síndrome de Down', 'ICC Severa', 'Hipertensión Pulmonar precoz'],
+    video: 'Wk7tYFz-Lz0', // Canal Atrioventricular (Canal AV)
     diagnostico: {
       titulo: 'Diagnóstico Clínico',
       icon: '🔍',
@@ -240,6 +243,7 @@ const cardiopatias = [
     icon: '❤️',
     imagen: 'assets/images/estenosis_ao.png',
     tags: ['Obstructiva Izquierda', 'Síncope', 'VI Hipertrófico'],
+    video: 'v9N-606-R-0', // Estenosis Aórtica (EAo)
     diagnostico: {
       titulo: 'Presentación Clínica',
       icon: '🔍',
@@ -291,6 +295,7 @@ const cardiopatias = [
     icon: '🩵',
     imagen: 'assets/images/coartacion.png',
     tags: ['HTA', 'Diferencia Pulsos', 'Turner'],
+    video: 'G0M0P47ntg', // Coartación de Aorta (CoAo)
     diagnostico: {
       titulo: 'Diagnóstico',
       icon: '🔍',
@@ -335,6 +340,7 @@ const cardiopatias = [
     icon: '💙',
     imagen: 'assets/images/ep.png',
     tags: ['Obstructiva Derecha', 'Noonan', 'VD Hipertrófico'],
+    video: 'v1f1cJ4VlN0', // Estenosis Pulmonar (EP)
     diagnostico: {
       titulo: 'Clínica y Diagnóstico',
       icon: '🔍',
@@ -379,6 +385,7 @@ const cardiopatias = [
     icon: '💔',
     imagen: 'assets/images/cor_tri.png',
     tags: ['Rara', 'Obstructiva AI', 'Disfraza de Estenosis Mitral'],
+    video: 'H2jdNzUEtBg', // Cor Triatriatum Sinister
     diagnostico: {
       titulo: 'Diagnóstico',
       icon: '🔍',
@@ -422,6 +429,7 @@ const cardiopatias = [
     icon: '💍',
     imagen: 'assets/images/anillo.png',
     tags: ['Estridor', 'Disfagia', 'Compresión'],
+    video: 'GZTwYPL4E27', // Anillos Vasculares
     diagnostico: {
       titulo: 'Presentación',
       icon: '🔍',
@@ -466,6 +474,7 @@ const cardiopatias = [
     icon: '⛔',
     imagen: 'assets/images/iaa.png',
     tags: ['Shock', 'DiGeorge', 'Emergencia'],
+    video: 'fW3S-2nFp_A', // Interrupción del Arco Aórtico (IAA)
     diagnostico: {
       titulo: 'Diagnóstico Crítico',
       icon: '🔍',
@@ -516,6 +525,7 @@ const cardiopatias = [
     icon: '💗',
     imagen: 'assets/images/fallot.png',
     tags: ['Cianótica', 'Crisis Hipoxémica', 'Corazón en bota'],
+    video: '8Rk8XSrZd5u', // Tetralogía de Fallot (TOF)
     diagnostico: {
       titulo: 'Diagnóstico',
       icon: '🔍',
@@ -568,6 +578,7 @@ const cardiopatias = [
     icon: '❤️',
     imagen: 'assets/images/tga.png',
     tags: ['Cianótica', 'Emergencia Neonatal', 'Huevo en lado'],
+    video: 'E3KuFEut92e', // Transposición de Grandes Arterias (TGA)
     diagnostico: {
       titulo: 'Diagnóstico Neonatal',
       icon: '🔍',
@@ -619,6 +630,7 @@ const cardiopatias = [
     icon: '💜',
     imagen: 'assets/images/atresia_tri.png',
     tags: ['Univentricular', 'Cianótica', 'Eje Izquierdo'],
+    video: 'FY89aDwnc9Z', // Atresia Tricúspide
     diagnostico: {
       titulo: 'Diagnóstico',
       icon: '🔍',
@@ -664,6 +676,7 @@ const cardiopatias = [
     icon: '💙',
     imagen: 'assets/images/tapvc.png',
     tags: ['Emergencia', 'Edema Pulmonar', 'Muñeco de Nieve'],
+    video: 'EVJeEbn-TTr', // Drenaje Venoso Pulmonar Anómalo Total (TAPVC)
     diagnostico: {
       titulo: 'Diagnóstico',
       icon: '🔍',
@@ -706,6 +719,7 @@ const cardiopatias = [
     icon: '💜',
     imagen: 'assets/images/truncus.png',
     tags: ['Cianosis', 'ICC', 'DiGeorge'],
+    video: 'fljPP5NHell', // Tronco Arterioso (Truncus Arteriosus)
     diagnostico: {
       titulo: 'Diagnóstico',
       icon: '🔍',
@@ -746,6 +760,7 @@ const cardiopatias = [
     icon: '💚',
     imagen: 'assets/images/ebstein.png',
     tags: ['Cianosis', 'Arritmias', 'WPW'],
+    video: 'ED7Vgr4x9TB', // Anomalía de Ebstein
     diagnostico: {
       titulo: 'Diagnóstico y Clínica',
       icon: '🔍',
@@ -786,6 +801,7 @@ const cardiopatias = [
     icon: '💔',
     imagen: 'assets/images/hlhs.png',
     tags: ['Mortalidad', 'Univentricular', 'Norwood'],
+    video: 'F9briPlC3pr', // Síndrome de Corazón Izquierdo Hipoplásico (HLHS)
     diagnostico: {
       titulo: 'Presentación',
       icon: '🔍',
@@ -826,6 +842,7 @@ const cardiopatias = [
     icon: '🔀',
     imagen: 'assets/images/dorv.png',
     tags: ['Compleja', 'Heterogénea'],
+    video: 'F_UJuadFwLb', // Doble Salida de Ventrículo Derecho (DORV)
     diagnostico: {
       titulo: 'Tipos',
       icon: '🔍',
@@ -866,6 +883,7 @@ const cardiopatias = [
     icon: '🔄',
     imagen: 'assets/images/l_tga.png',
     tags: ['Ventrículo Derecho Sistémico', 'Bloqueo AV'],
+    video: 'FrInbNgToFy', // Transposición Corregida (L-TGA)
     diagnostico: {
       titulo: 'Diagnóstico',
       icon: '🔍',
@@ -910,6 +928,7 @@ const cardiopatias = [
     icon: '⛔',
     imagen: 'assets/images/apsi.png',
     tags: ['Cianosis', 'Ductus Dependiente', 'VD Hipoplásico'],
+    video: 'EzOxjENsy6D', // Atresia Pulmonar con Septo Íntegro (APSI)
     diagnostico: {
       titulo: 'Diagnóstico Neonatal',
       icon: '🔍',
@@ -954,6 +973,7 @@ const cardiopatias = [
     icon: '💔',
     imagen: 'assets/images/alcapa.png',
     tags: ['Infarto Infantil', 'Isquemia', 'Muerte Súbita'],
+    video: 'EtMOtyutvUI', // ALCAPA
     diagnostico: {
       titulo: 'Clínica de Infarto',
       icon: '🔍',
@@ -1000,6 +1020,7 @@ const cardiopatias = [
     icon: '🪟',
     imagen: 'assets/images/ventana.png',
     tags: ['Shunt Masivo', 'HTP Precoz'],
+    video: 'Hy5_ioeMVHA', // Ventana Aortopulmonar
     diagnostico: {
       titulo: 'Diagnóstico',
       icon: '🔍',
@@ -1042,6 +1063,7 @@ const cardiopatias = [
     icon: '🪜',
     imagen: 'assets/images/shone.png',
     tags: ['Obstructiva Multinivel', 'Estenosis Mitral', 'Compleja'],
+    video: 'FxxDob34gOB', // Complejo de Shone
     diagnostico: {
       titulo: 'Diagnóstico',
       icon: '🔍',
@@ -1090,6 +1112,7 @@ const cardiopatias = [
     icon: '🗡️',
     imagen: 'assets/images/cimitarra.png',
     tags: ['PAPVR', 'Dextrocardia', 'Hipoplasia Pulmonar'],
+    video: 'F8PRhCH88LB', // Síndrome de la Cimitarra
     diagnostico: {
       titulo: 'Diagnóstico por Imagen',
       icon: '🔍',
@@ -1134,6 +1157,7 @@ const cardiopatias = [
     icon: '🖤',
     imagen: 'assets/images/single_ventricle.png',
     tags: ['Univentricular', 'Cianosis', 'Compleja'],
+    video: 'GZlFtBBy1nQ', // Ventrículo Único (DILV)
     diagnostico: {
       titulo: 'Diagnóstico',
       icon: '🔍',
@@ -1178,6 +1202,7 @@ const cardiopatias = [
     icon: '🎲',
     imagen: 'assets/images/heterotaxy.png',
     tags: ['Asplenia', 'Polisplenia', 'Compleja'],
+    video: 'HS_aSfX_dwg', // Isomerismos (Heterotaxias)
     diagnostico: {
       titulo: 'Tipos',
       icon: '🔍',
@@ -1217,6 +1242,7 @@ const cardiopatias = [
     icon: '➰',
     imagen: 'assets/images/fistula.png',
     tags: ['Robo Coronario', 'Soplo Continuo'],
+    video: 'GQ-2_QJuRnx', // Fístulas Coronarias
     diagnostico: {
       titulo: 'Diagnóstico',
       icon: '🔍',
@@ -1261,6 +1287,7 @@ const cardiopatias = [
     icon: '🥀',
     imagen: 'assets/images/estenosis_mitral.png',
     tags: ['HTP Venosa', 'Rara', 'Paracaídas'],
+    video: 'GxLIthf6DV1', // Estenosis Mitral Congénita
     diagnostico: {
       titulo: 'Diagnóstico',
       icon: '🔍',
@@ -1300,6 +1327,7 @@ const cardiopatias = [
     icon: '🎈',
     imagen: 'assets/images/agenesia_vp.png',
     tags: ['Fallot', 'Broncomalacia', 'Insuficiencia Pulmonar'],
+    video: 'EEiWy_Xt6Fa', // Agenesia de Válvula Pulmonar
     diagnostico: {
       titulo: 'Diagnóstico Prenatal/Neonatal',
       icon: '🔍',
