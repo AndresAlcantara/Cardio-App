@@ -261,13 +261,13 @@ body {
   font-size: 1.1rem;
   font-weight: 600;
   color: var(--text-main);
-  white-space: normal;
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
+  white-space: normal !important;
+  overflow: visible !important;
+  text-overflow: clip !important;
   flex: 1;
   min-width: 0;
+  height: auto !important;
+  max-height: none !important;
 }
 
 .hamburger {
@@ -537,10 +537,13 @@ body {
   color: #44403c;
   line-height: 1.8;
   font-size: 1rem;
-  white-space: normal;
-  overflow-wrap: break-word;
-  word-break: break-word;
-  max-width: 100%;
+  white-space: normal !important;
+  overflow: visible !important;
+  overflow-wrap: break-word !important;
+  word-break: break-word !important;
+  max-width: 100% !important;
+  height: auto !important;
+  display: block !important;
 }
 
 
