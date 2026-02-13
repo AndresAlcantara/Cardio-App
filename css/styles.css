@@ -365,6 +365,7 @@ body {
   color: #1c1917;
   font-size: 1.1rem;
   font-weight: 600;
+  overflow-wrap: break-word;
 }
 
 .diagram-container {
@@ -656,6 +657,7 @@ body {
   font-size: 0.9rem;
   border: 1px solid #e2e8f0;
   color: var(--text-main);
+  overflow-wrap: break-word;
 }
 
 [data-theme="dark"] .detail-description-box {
@@ -749,11 +751,30 @@ body {
   }
 
   .page-container {
+    padding: 1rem 0.75rem;
+  }
+
+  .card {
+    padding: 1rem;
+  }
+
+  .diagram-container {
+    min-height: auto;
+    padding: 1rem;
+    border-radius: 12px;
+  }
+
+  .diagram-container svg {
+    max-height: 300px;
+  }
+
+  .diagram-column {
     padding: 1rem;
   }
 
   .cards-grid {
     grid-template-columns: 1fr;
+    gap: 1rem;
   }
 
   .detail-header {
