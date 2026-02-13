@@ -315,6 +315,7 @@ body {
   max-width: 1400px;
   /* Wider for professional screens */
   margin: 0 auto;
+  width: 100%;
 }
 
 /* Cards */
@@ -706,6 +707,18 @@ body {
 @media (max-width: 768px) {
   .hamburger {
     display: block;
+  }
+
+  .app-layout {
+    display: block;
+    height: auto;
+    overflow: visible;
+  }
+
+  .main-content {
+    width: 100%;
+    height: auto;
+    overflow: visible;
   }
 
   .sidebar {
