@@ -2,7 +2,7 @@
 // Each function returns an SVG string
 
 window.diagrams = {
-  cia: `<svg viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg" style="max-width:460px;margin:0 auto;">
+  cia: `<svg viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;">
   <defs>
     <linearGradient id="gdBlue" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#3b82f6"/><stop offset="100%" stop-color="#60a5fa"/></linearGradient>
     <linearGradient id="gdRed" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#ef4444"/><stop offset="100%" stop-color="#f87171"/></linearGradient>
@@ -33,7 +33,7 @@ window.diagrams = {
   <text x="250" y="395" text-anchor="middle" fill="#64748b" font-size="10" font-family="Inter,sans-serif">Shunt izquierda → derecha a nivel auricular</text>
 </svg>`,
 
-  civ: `<svg viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg" style="max-width:460px;margin:0 auto;">
+  civ: `<svg viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;">
   <defs>
     <linearGradient id="gdBlue2" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#3b82f6"/><stop offset="100%" stop-color="#60a5fa"/></linearGradient>
     <linearGradient id="gdRed2" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#ef4444"/><stop offset="100%" stop-color="#f87171"/></linearGradient>
@@ -59,7 +59,7 @@ window.diagrams = {
   <text x="250" y="395" text-anchor="middle" fill="#64748b" font-size="10" font-family="Inter,sans-serif">Shunt izquierda → derecha a nivel ventricular</text>
 </svg>`,
 
-  fallot: `<svg viewBox="0 0 500 420" xmlns="http://www.w3.org/2000/svg" style="max-width:460px;margin:0 auto;">
+  fallot: `<svg viewBox="0 0 500 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;">
   <defs>
     <linearGradient id="gdB3" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#3b82f6"/><stop offset="100%" stop-color="#60a5fa"/></linearGradient>
     <linearGradient id="gdR3" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#ef4444"/><stop offset="100%" stop-color="#f87171"/></linearGradient>
@@ -99,7 +99,7 @@ window.diagrams = {
   <text x="250" y="412" text-anchor="middle" fill="#64748b" font-size="10" font-family="Inter,sans-serif">Shunt derecha → izquierda · Cardiopatía cianótica</text>
 </svg>`,
 
-  tga: `<svg viewBox="0 0 500 420" xmlns="http://www.w3.org/2000/svg" style="max-width:460px;margin:0 auto;">
+  tga: `<svg viewBox="0 0 500 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;">
   <defs>
     <linearGradient id="gdB4" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#3b82f6"/><stop offset="100%" stop-color="#60a5fa"/></linearGradient>
     <linearGradient id="gdR4" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#ef4444"/><stop offset="100%" stop-color="#f87171"/></linearGradient>
@@ -141,7 +141,7 @@ window.diagrams = {
   <text x="250" y="412" text-anchor="middle" fill="#64748b" font-size="10" font-family="Inter,sans-serif">Circulaciones en paralelo · Incompatible sin mezcla</text>
 </svg>`,
 
-  coartacion: `<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg" style="max-width:460px;margin:0 auto;">
+  coartacion: `<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;">
   <defs>
     <linearGradient id="gdAo" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#ef4444"/><stop offset="100%" stop-color="#f87171"/></linearGradient>
     <filter id="glow5"><feGaussianBlur stdDeviation="2.5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
@@ -180,7 +180,7 @@ window.diagrams = {
   <text x="250" y="345" text-anchor="middle" fill="#64748b" font-size="10" font-family="Inter,sans-serif">Gradiente de presión entre miembros superiores e inferiores</text>
 </svg>`,
 
-  dap: `<svg viewBox="0 0 500 380" xmlns="http://www.w3.org/2000/svg" style="max-width:460px;margin:0 auto;">
+  dap: `<svg viewBox="0 0 500 380" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;">
   <defs>
     <linearGradient id="gdAo6" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#ef4444"/><stop offset="100%" stop-color="#f87171"/></linearGradient>
     <linearGradient id="gdPul6" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#3b82f6"/><stop offset="100%" stop-color="#60a5fa"/></linearGradient>
@@ -213,7 +213,7 @@ window.diagrams = {
   <text x="250" y="15" text-anchor="middle" fill="#94a3b8" font-size="13" font-family="Outfit,sans-serif" font-weight="600">Ductus Arterioso Persistente (DAP)</text>
 </svg>`
   ,
-  canal_av: `<svg viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg" style="max-width:460px;margin:0 auto;">
+  canal_av: `<svg viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;">
   <defs>
     <linearGradient id="gdOrange" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#f59e0b"/><stop offset="100%" stop-color="#fbbf24"/></linearGradient>
   </defs>
@@ -238,7 +238,7 @@ window.diagrams = {
   <text x="250" y="380" text-anchor="middle" fill="#64748b" font-size="10" font-family="Inter,sans-serif">Comunicación auricular y ventricular común</text>
 </svg>`,
 
-  estenosis_pulmonar: `<svg viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg" style="max-width:460px;margin:0 auto;">
+  estenosis_pulmonar: `<svg viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;">
   <defs>
     <linearGradient id="gdCyan" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#06b6d4"/><stop offset="100%" stop-color="#22d3ee"/></linearGradient>
   </defs>
@@ -256,7 +256,7 @@ window.diagrams = {
   <text x="250" y="380" text-anchor="middle" fill="#64748b" font-size="10" font-family="Inter,sans-serif">Hipertrofia del VD por obstrucción</text>
 </svg>`,
 
-  atresia_tricuspide: `<svg viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg" style="max-width:460px;margin:0 auto;">
+  atresia_tricuspide: `<svg viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;">
   <defs>
     <linearGradient id="gdPurple" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#7c3aed"/><stop offset="100%" stop-color="#a78bfa"/></linearGradient>
   </defs>
@@ -280,7 +280,7 @@ window.diagrams = {
   <text x="250" y="380" text-anchor="middle" fill="#64748b" font-size="10" font-family="Inter,sans-serif">Conexión atrioventricular derecha ausente</text>
 </svg>`
   ,
-  tapvc: `<svg viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg" style="max-width:460px;margin:0 auto;">
+  tapvc: `<svg viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;">
   <defs>
     <linearGradient id="gdBlueT" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#06b6d4"/><stop offset="100%" stop-color="#67e8f9"/></linearGradient>
   </defs>
@@ -306,7 +306,7 @@ window.diagrams = {
   <text x="250" y="380" text-anchor="middle" fill="#64748b" font-size="10" font-family="Inter,sans-serif">Las venas pulmonares no conectan a la AI</text>
 </svg>`,
 
-  truncus: `<svg viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg" style="max-width:460px;margin:0 auto;">
+  truncus: `<svg viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;">
   <defs>
     <linearGradient id="gdMega" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#d946ef"/><stop offset="100%" stop-color="#f0abfc"/></linearGradient>
   </defs>
@@ -330,7 +330,7 @@ window.diagrams = {
   <text x="250" y="350" text-anchor="middle" fill="#64748b" font-size="10" font-family="Inter,sans-serif">Salida única para ambos ventrículos + CIV</text>
 </svg>`,
 
-  ebstein: `<svg viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg" style="max-width:460px;margin:0 auto;">
+  ebstein: `<svg viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;">
   <defs>
     <linearGradient id="gdEbstein" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#14b8a6"/><stop offset="100%" stop-color="#5eead4"/></linearGradient>
   </defs>
@@ -355,7 +355,7 @@ window.diagrams = {
   <text x="250" y="390" text-anchor="middle" fill="#64748b" font-size="10" font-family="Inter,sans-serif">Desplazamiento apical de la válvula tricúspide</text>
 </svg>`
   ,
-  hlhs: `<svg viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg" style="max-width:460px;margin:0 auto;">
+  hlhs: `<svg viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;">
   <defs>
     <linearGradient id="gdGrey" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#94a3b8"/><stop offset="100%" stop-color="#cbd5e1"/></linearGradient>
   </defs>
@@ -379,7 +379,7 @@ window.diagrams = {
   <text x="250" y="380" text-anchor="middle" fill="#64748b" font-size="10" font-family="Inter,sans-serif">VI y Aorta no funcionales. VD mantiene la circulación.</text>
 </svg>`,
 
-  dorv: `<svg viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg" style="max-width:460px;margin:0 auto;">
+  dorv: `<svg viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;">
   <defs>
     <linearGradient id="gdOrange2" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#ea580c"/><stop offset="100%" stop-color="#fb923c"/></linearGradient>
   </defs>
@@ -408,7 +408,7 @@ window.diagrams = {
   <text x="250" y="380" text-anchor="middle" fill="#64748b" font-size="10" font-family="Inter,sans-serif">Ambos grandes vasos nacen del VD (>50%)</text>
 </svg>`,
 
-  iaa: `<svg viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg" style="max-width:460px;margin:0 auto;">
+  iaa: `<svg viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;">
   <defs>
     <linearGradient id="gdRedCritical" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#b91c1c"/><stop offset="100%" stop-color="#ef4444"/></linearGradient>
   </defs>
@@ -434,7 +434,7 @@ window.diagrams = {
   <text x="250" y="380" text-anchor="middle" fill="#64748b" font-size="10" font-family="Inter,sans-serif">Discontinuidad completa del arco. Dependencia ductal total.</text>
 </svg>`
   ,
-  estenosis_aortica: `<svg viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg" style="max-width:460px;margin:0 auto;">
+  estenosis_aortica: `<svg viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;">
   <defs>
     <linearGradient id="gdRedBright" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#ef4444"/><stop offset="100%" stop-color="#b91c1c"/></linearGradient>
   </defs>
@@ -454,7 +454,7 @@ window.diagrams = {
   <text x="250" y="380" text-anchor="middle" fill="#64748b" font-size="10" font-family="Inter,sans-serif">Obstrucción a salida VI. Hipertrofia concéntrica.</text>
 </svg>`,
 
-  cor_triatriatum: `<svg viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg" style="max-width:460px;margin:0 auto;">
+  cor_triatriatum: `<svg viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;">
   <!-- LA -->
   <circle cx="250" cy="150" r="50" fill="#e0e7ff" stroke="#6366f1" stroke-width="2"/>
   <text x="250" y="150" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#6366f1" opacity="0.4">AI</text>
@@ -473,7 +473,7 @@ window.diagrams = {
   <text x="250" y="380" text-anchor="middle" fill="#64748b" font-size="10" font-family="Inter,sans-serif">Membrana en AI obstruye retorno venoso.</text>
 </svg>`,
 
-  anillos_vasculares: `<svg viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg" style="max-width:460px;margin:0 auto;">
+  anillos_vasculares: `<svg viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;">
   <!-- Trachea and Esophagus -->
   <rect x="230" y="50" width="20" height="200" fill="#f1f5f9" stroke="#94a3b8" rx="5"/> <!-- Trachea -->
   <rect x="250" y="50" width="20" height="200" fill="#fce7f3" stroke="#f472b6" rx="5"/> <!-- Esophagus -->
@@ -488,7 +488,7 @@ window.diagrams = {
   <text x="250" y="380" text-anchor="middle" fill="#64748b" font-size="10" font-family="Inter,sans-serif">Anillo vascular comprimiendo tráquea y esófago.</text>
 </svg>`
   ,
-  l_tga: `<svg viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg" style="max-width:460px;margin:0 auto;">
+  l_tga: `<svg viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;">
   <!-- Double Discordance -->
   <path d="M150,200 L150,350 L250,380 L250,200 Z" fill="#fee2e2" stroke="#ef4444" stroke-width="2"/> <!-- Morph LV on Right side (anatomical right) -->
   <text x="200" y="300" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#ef4444" opacity="0.4">VI (Morf)</text>
@@ -506,7 +506,7 @@ window.diagrams = {
   <text x="250" y="30" text-anchor="middle" fill="#6366f1" font-size="14" font-weight="bold">DOBLE DISCORDANCIA</text>
 </svg>`,
 
-  apsi: `<svg viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg" style="max-width:460px;margin:0 auto;">
+  apsi: `<svg viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;">
   <!-- Thick RV -->
   <path d="M100,200 Q100,350 200,350 L200,200 Z" fill="#e0f2fe" stroke="#3b82f6" stroke-width="4"/>
   <text x="150" y="280" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#3b82f6" opacity="0.6">VD Hipo</text>
@@ -520,7 +520,7 @@ window.diagrams = {
   <text x="250" y="240" text-anchor="start" font-family="sans-serif" font-size="10" fill="#ef4444">Sinusoides</text>
 </svg>`,
 
-  alcapa: `<svg viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg" style="max-width:460px;margin:0 auto;">
+  alcapa: `<svg viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;">
   <!-- PA -->
   <circle cx="150" cy="150" r="40" fill="#e0f2fe" stroke="#3b82f6" stroke-width="4"/>
   <text x="150" y="150" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#3b82f6">AP</text>
@@ -538,7 +538,7 @@ window.diagrams = {
   <path d="M310,150 Q280,200 280,250" stroke="#ef4444" stroke-width="4" fill="none" opacity="0.5"/>
 </svg>`,
 
-  ventana: `<svg viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg" style="max-width:460px;margin:0 auto;">
+  ventana: `<svg viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;">
   <!-- Ao and PA parallel -->
   <path d="M150,300 L150,50" stroke="#3b82f6" stroke-width="30" opacity="0.6"/>
   <path d="M250,300 L250,50" stroke="#ef4444" stroke-width="30" opacity="0.6"/>
@@ -551,7 +551,7 @@ window.diagrams = {
   <text x="250" y="320" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#ef4444">Ao</text>
 </svg>`,
 
-  shone: `<svg viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg" style="max-width:460px;margin:0 auto;">
+  shone: `<svg viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;">
   <!-- Multiple Obstructions -->
   <text x="250" y="50" text-anchor="middle" fill="#be123c" font-size="14" font-weight="bold">OBSTRUCCIONES SERIADAS</text>
   
@@ -572,7 +572,7 @@ window.diagrams = {
   <text x="250" y="300" text-anchor="middle" font-size="12" fill="#be123c">Fallo VI</text>
 </svg>`,
 
-  cimitarra: `<svg viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg" style="max-width:460px;margin:0 auto;">
+  cimitarra: `<svg viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;">
   <!-- Right Lung Hypoplastic -->
   <path d="M300,100 Q400,100 400,300 Q300,300 300,100" fill="#e0f2fe" stroke="#3b82f6" stroke-width="2" opacity="0.5"/>
   <text x="350" y="200" text-anchor="middle" fill="#3b82f6" opacity="0.5">Pulmón Dcho</text>
@@ -586,7 +586,7 @@ window.diagrams = {
   <text x="300" y="370" text-anchor="middle" font-size="10" fill="#3b82f6">VCI</text>
 </svg>`,
 
-  ventriculo_unico: `<svg viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg" style="max-width:460px;margin:0 auto;">
+  ventriculo_unico: `<svg viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;">
   <!-- Single Large Ventricle -->
   <path d="M100,200 Q250,400 400,200 L400,150 L100,150 Z" fill="#f3e8ff" stroke="#7c3aed" stroke-width="4"/>
   <text x="250" y="250" text-anchor="middle" font-size="24" fill="#7c3aed" opacity="0.6">Ventrículo Único</text>
@@ -599,7 +599,7 @@ window.diagrams = {
   <text x="320" y="150" text-anchor="middle" font-size="12" fill="#7c3aed">Válvula I</text>
 </svg>`,
 
-  isomerismos: `<svg viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg" style="max-width:460px;margin:0 auto;">
+  isomerismos: `<svg viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;">
   <!-- Liver Midline -->
   <rect x="150" y="300" width="200" height="60" fill="#fecca9" stroke="#ea580c" rx="10"/>
   <text x="250" y="335" text-anchor="middle" fill="#ea580c" font-weight="bold">Hígado Central</text>
@@ -613,7 +613,7 @@ window.diagrams = {
   <text x="250" y="205" text-anchor="middle" fill="#6366f1">Atrio Común / Ambiguo</text>
 </svg>`,
 
-  fistulas_coronarias: `<svg viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg" style="max-width:460px;margin:0 auto;">
+  fistulas_coronarias: `<svg viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;">
   <!-- Heart -->
   <path d="M150,150 L350,150 L300,350 L200,350 Z" fill="#fee2e2" stroke="#ef4444" stroke-width="2"/>
   
@@ -628,7 +628,7 @@ window.diagrams = {
   <text x="250" y="380" text-anchor="middle" fill="#64748b" font-size="10">Conexión anormal a cámara cardíaca</text>
 </svg>`,
 
-  estenosis_mitral: `<svg viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg" style="max-width:460px;margin:0 auto;">
+  estenosis_mitral: `<svg viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;">
   <!-- LA -->
   <circle cx="250" cy="100" r="60" fill="#fee2e2" stroke="#ef4444"/>
   <text x="250" y="100" text-anchor="middle" font-size="14" fill="#ef4444">AI (Dilatada)</text>
@@ -645,7 +645,7 @@ window.diagrams = {
   <path d="M150,200 Q150,350 350,350 Q350,200 350,200" fill="none" stroke="#ef4444" stroke-width="2"/>
 </svg>`,
 
-  agenesia_pulmonar: `<svg viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg" style="max-width:460px;margin:0 auto;">
+  agenesia_pulmonar: `<svg viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;">
   <!-- RV -->
   <path d="M150,300 L250,300 L200,200 Z" fill="#e0f2fe" stroke="#3b82f6"/>
   

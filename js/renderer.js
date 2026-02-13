@@ -78,11 +78,9 @@ function renderDetail(id) {
     <div class="detail-view">
       <div class="detail-header">
         <div class="detail-title">
-          <div style="display:flex;align-items:center;gap:1rem;margin-bottom:0.5rem">
-            <span style="font-size:2rem">${c.icon}</span>
             <span class="tag" style="background:${c.color}20;color:${c.color}">${c.categoria}</span>
           </div>
-          <h2 style="color:${c.color}">${c.nombre}</h2>
+          <h2 class="path-title" style="color:${c.color}">${c.nombre}</h2>
         </div>
         <button class="close-btn" onclick="window.location.hash='/'">✕</button>
       </div>
