@@ -103,7 +103,7 @@ function renderDetail(id) {
             <button class="tab-btn" onclick="switchTab(this, 'eco')">Ecocardiografía</button>
           </div>
 
-          <div id="tab-diagnostico" class="tab-content">
+          <div id="tab-diagnostico" class="tab-content" style="display:block">
             <h3>${c.diagnostico.icon} ${c.diagnostico.titulo}</h3>
             ${c.diagnostico.contenido}
           </div>

@@ -674,15 +674,15 @@ body {
 
 /* Description Box */
 .detail-description-box {
-  margin-top: 1rem;
-  padding: 1rem;
-  background: #f8fafc;
+  margin-top: 1.5rem;
+  padding: 1.25rem;
+  background: var(--primary-light);
   border-radius: 12px;
-  font-size: 0.9rem;
-  border: 1px solid #e2e8f0;
+  font-size: 0.95rem;
+  border: 1px solid var(--glass-border);
   color: var(--text-main);
   overflow-wrap: break-word;
-  text-align: center;
+  line-height: 1.5;
 }
 
 [data-theme="dark"] .detail-description-box {
