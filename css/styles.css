@@ -526,6 +526,10 @@ body {
   background: var(--primary);
 }
 
+.tab-content {
+  display: none;
+}
+
 .tab-content h3 {
   font-family: var(--font-heading);
   color: #292524;
