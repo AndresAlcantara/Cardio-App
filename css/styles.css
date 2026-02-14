@@ -438,19 +438,19 @@ body {
 
 /* Detail View - Professional */
 .detail-view {
-  background: white;
+  background: var(--card-bg);
   border-radius: 16px;
   padding: 0;
   box-shadow: var(--shadow-lg);
   overflow: hidden;
-  border: 1px solid rgba(0, 0, 0, 0.05);
+  border: 1px solid var(--glass-border);
   width: 100%;
 }
 
 .detail-header {
   padding: 2rem 3rem;
-  background: #fafafa;
-  border-bottom: 1px solid #e5e5e5;
+  background: var(--card-bg);
+  border-bottom: 1px solid var(--glass-border);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -476,18 +476,18 @@ body {
 }
 
 .close-btn {
-  background: white;
-  border: 1px solid #e5e5e5;
+  background: var(--card-bg);
+  border: 1px solid var(--glass-border);
   width: 36px;
   height: 36px;
   border-radius: 6px;
   cursor: pointer;
-  color: #78716c;
+  color: var(--text-muted);
 }
 
 .close-btn:hover {
-  background: #f5f5f5;
-  color: #000;
+  background: var(--primary-light);
+  color: var(--primary);
 }
 
 /* Tabs - Professional */
@@ -639,8 +639,8 @@ body {
 }
 
 [data-theme="dark"] .detail-header {
-  background: #1c1917;
-  border-color: #292524;
+  background: var(--card-bg);
+  border-color: var(--glass-border);
 }
 
 [data-theme="dark"] .diagram-column {
