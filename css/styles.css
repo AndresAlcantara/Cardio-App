@@ -814,6 +814,7 @@ body {
 
   .diagram-column {
     padding: 1rem;
+    align-items: stretch !important;
   }
 
   .cards-grid {
